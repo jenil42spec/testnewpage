@@ -1,0 +1,140 @@
+/* Basic Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main Container */
+.app-container {
+  max-width: 500px;
+  margin: 20px auto;
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+}
+
+/* Header Section */
+.app-header {
+  display: flex;
+  align-items: center;
+}
+
+.app-logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 15px;
+  border: 2px solid red;
+}
+
+.app-info {
+  margin-left: 15px;
+}
+
+.app-info h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.app-info p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+/* Install Button */
+.install-btn {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+}
+
+.install-btn:hover {
+  background-color: #ff3333;
+}
+
+/* Ratings Section */
+.rating-reviews {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  color: red;
+}
+
+/* App Specifications */
+.app-specs {
+  margin-top: 15px;
+  background: rgba(255, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.app-specs h3 {
+  margin-top: 0;
+}
+
+/* Screenshots Section */
+.screenshots {
+  margin-top: 15px;
+}
+
+.screenshot-container {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.screenshot {
+  width: 120px;
+  height: 200px;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 5px;
+  border: 2px solid red;
+  flex: 0 0 auto;
+}
+
+/* User Reviews Section */
+.user-reviews {
+  margin-top: 15px;
+}
+
+.user-reviews h3 {
+  margin-top: 0;
+}
+
+/* Review Box */
+.review {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  background: rgba(255, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* User DP (Gmail-style) */
+.user-logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 16px;
+  margin-right: 10px;
+}

@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+.app-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.app-card {
+    display: flex;
+    align-items: center;
+    background: #111;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(255, 0, 0, 0.5); /* Red neon glow */
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.app-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 15px rgba(255, 0, 0, 0.8);
+}
+
+.app-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 15px;
+    background: #444; /* Placeholder for logo */
+}
+
+.app-info {
+    flex-grow: 1;
+}
+
+.app-info h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.app-info p {
+    margin: 2px 0;
+    font-size: 12px;
+    color: gray;
+}
+
+.download-btn {
+    background: black;
+    color: white;
+    border: 2px solid red;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px red;
+    transition: all 0.3s ease;
+}
+
+.download-btn:hover {
+    box-shadow: 0px 0px 20px red;
+    transform: scale(1.05);
+}
+
+.price-tag {
+    background: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    font-weight: bold;
+    box-shadow: 0px 0px 8px green;
+}
